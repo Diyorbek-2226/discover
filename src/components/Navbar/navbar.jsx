@@ -24,7 +24,7 @@ const navbarRef = useRef();
   if (scrollPosition>100) {
    navbarRef.current.style.backgroundColor = 'white'
   }else if(scrollPosition<100){
-    navbarRef.current.style.backgroundColor = 'transparent'
+    // navbarRef.current.style.backgroundColor = 'transparent'
   }
 
   
