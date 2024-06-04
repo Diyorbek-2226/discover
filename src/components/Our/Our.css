@@ -1,0 +1,9 @@
+.list:hover h1{
+color: rgb(224, 175, 51);
+}
+.list:hover p{
+    color: darkgray;
+    }
+    .list:hover .icons{
+        color:rgb(224, 175, 51); 
+    }

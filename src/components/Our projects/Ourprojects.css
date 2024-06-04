@@ -1,0 +1,98 @@
+.ourprojects {
+    padding: 20px;
+  }
+  
+  .ourprojects_img, .ourprojects_img2 {
+    width: calc(50% - 10px); 
+    overflow: hidden;
+  }
+  
+  .ourprojects .flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* This will leave a fixed 20px gap between the two sections */
+  }
+  
+  .project_img1, .project_img2, .project_img3, .project_img4, .project_img5, .project_img6 {
+    width: 100%; /* Take full width of the container */
+    height: 300px; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white; /* Ensure text is readable on the background */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7); /* Optional: adds a shadow to the text for better readability */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project_img1 {
+    background-image: url('./image/magic.webp');
+  }
+  
+  .project_img2 {
+    background-image: url('./image/goldenrasidense.webp');
+  }
+  
+  .project_img3 {
+    background-image: url('./image/invento.webp');
+  }
+  
+  .project_img4 {
+    background-image: url('./image/boulaverd.webp');
+  }
+  
+  .project_img5 {
+    background-image: url('./image/fonon.webp');
+  }
+  
+  .project_img6 {
+    background-image: url('./image/presidentscool.webp');
+  }
+  
+  .z-10 {
+    position: relative;
+    z-index: 10;
+  }
+  .ourprojects .project_img1:hover h1,
+.ourprojects .project_img2:hover h1,
+.ourprojects .project_img3:hover h1,
+.ourprojects .project_img4:hover h1,
+.ourprojects .project_img5:hover h1,
+.ourprojects .project_img6:hover h1 {
+  color: rgb(224, 175, 51);
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ourprojects .project_img1:hover p,
+.ourprojects .project_img2:hover p,
+.ourprojects .project_img3:hover p,
+.ourprojects .project_img4:hover p,
+.ourprojects .project_img5:hover p,
+.ourprojects .project_img6:hover p {
+  padding-bottom: 200px;
+  transition: padding 1.5s;
+  
+}
+.project_img4{
+  position: relative;
+}
+.project_img4::before{
+  content: '';
+  position: absolute;
+  min-width: 100%;
+  min-height: 0%;
+  top: 0;
+  left: 0;
+  background: rgba(255,255,255,0.35);
+-webkit-backdrop-filter: blur(3px);
+backdrop-filter: blur(3px);
+border: 1px solid rgba(255,255,255,0.175);
+transition-duration: 0.4s;
+}
+.project_img4:hover::before{
+min-height: 100%;
+}

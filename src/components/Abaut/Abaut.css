@@ -1,0 +1,79 @@
+.about-left .hx{
+    padding-left: 50px;
+}
+section{
+    padding: 80px 0px;
+}
+.About_title{
+    display: flex;
+
+    gap: 20px;
+    
+}
+.about-left{
+    
+        width: 100%;
+}
+.about-left h1{
+    font-size: 35px;
+
+}
+.about-left p{
+    font-size: 13px;
+    padding-top: 20px;
+    color: darkgray;
+}
+.about-right{
+    margin-top: 100px;
+}
+.about-right .box{
+    width: 220px;
+    display: block;
+    height: 150px;
+    border:0.5px solid black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 20px;
+
+   
+}
+.wrap_box1{
+    display: flex;
+    padding-left: 220px;
+}
+.wrap_box2{
+    display: flex;
+}
+.wrap_box3{
+    display: flex;
+}
+.box h1{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box p{
+    padding: 2px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box:hover{
+    background-image: url(../img/abaut.jpg);
+    border: none;
+}
+.box:hover h1{
+    color: chartreuse;
+}
+.box:hover p{
+    color: darkgray;
+}
+.box1 a{
+    text-decoration: none ;
+    color: white;
+   font-size: 30px;
+   align-items: center;
+}
+.box1{
+    background-color: chartreuse;
+}
+
+    
+    
