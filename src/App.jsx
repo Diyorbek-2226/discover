@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -10,23 +10,19 @@ import { Our } from './components/Our/Our';
 import Ourslider from './components/Oursliders/OurSlider';
 import { Ourprojects } from './components/Our projects/Ourprojects';
 
-
 function App() {
-  
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
-
       {/* <Navbar/> */}
-     
-      <Header/>
-      <Abaut/>
-      <Our/>
-      <Ourslider/>
-      <Ourprojects/>
-
-      
-     
-      
+      <Header />
+      <Abaut />
+      <Our />
+      <Ourslider />
+      <Ourprojects />
     </>
   );
 }

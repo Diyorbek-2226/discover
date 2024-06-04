@@ -1,17 +1,17 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import logo from '../img/logo.svg';
 import { FaFacebook, FaInstagram, FaTelegram } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 
-
 export const Navbar = ({ isAboutSection }) => {
   const [scrollPosition, setScrollPosition] = useState(0);
-const navbarRef = useRef();
-  
+  const navbarRef = useRef();
+
   const handleScroll = () => {
     const position = window.scrollY || window.pageYOffset;
     setScrollPosition(position);
   };
+
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
 
@@ -21,15 +21,16 @@ const navbarRef = useRef();
     };
   }, []);
 
-  if (scrollPosition>100) {
-   navbarRef.current.style.backgroundColor = 'white'
-  }else if(scrollPosition<100){
-    // navbarRef.current.style.backgroundColor = 'transparent'
-  }
+  useEffect(() => {
+    if (scrollPosition > 100) {
+      navbarRef.current.style.backgroundColor = 'white';
+    } else if (scrollPosition < 100) {
+      navbarRef.current.style.backgroundColor = 'transparent';
+    }
+  }, [scrollPosition]);
 
-  
   return (
-    <nav ref={navbarRef} className={  'z-20 w-screen p-4 border border-bottom-1 fixed left-0 top-0  '}>
+    <nav ref={navbarRef} className="z-20 w-screen p-4 border border-bottom-1 fixed left-0 top-0">
       <div className="container m-auto navbar_title flex items-center justify-between">
         <div className="nav-img bg-gray-300 p-2">
           <img className="w-40" src={logo} alt="Logo" />
@@ -56,7 +57,6 @@ const navbarRef = useRef();
           <li className="hover:text-lime-500 cursor-pointer"><IoCall /></li>
         </ul>
       </div>
-  
     </nav>
   );
 };

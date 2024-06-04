@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Abaut.css';
 
 export const Abaut = () => {
