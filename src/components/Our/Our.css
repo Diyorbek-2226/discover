@@ -7,3 +7,10 @@ color: rgb(224, 175, 51);
     .list:hover .icons{
         color:rgb(224, 175, 51); 
     }
+    .our{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../../assets/advantages.png);
+    }

@@ -1,0 +1,108 @@
+/* General reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles can be added here if necessary */
+/* .navbar {
+    // Your navbar styles
+} */
+
+/* Header wrapper to contain background image and content */
+.header_wrapper1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Background image styling */
+.background_image1 {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure the image is behind the content */
+}
+.background_image2 {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure the image is behind the content */
+}
+.ourmision{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header content styling */
+/* .header_title1 {
+    
+    z-index: 999; 
+    color: white; /* Text color for visibility on top of the image */
+    /* text-align: center;  */
+ .url_about{
+    background-image: url(./bg-mg.svg);
+ }
+
+/* Responsive text sizes */
+.header_title1 h1 {
+    font-size: 4rem; /* Adjust as needed */
+    margin: 0.5rem 0;
+     /* Spacing between lines */
+}
+
+/* Paragraph styling */
+
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .header_title1 h1 {
+        font-size: 2.5rem;
+    }
+    .header_title1 p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header_title1 h1 {
+        font-size: 2rem;
+    }
+    .header_title1 p {
+        font-size: 0.875rem;
+    }
+}
+.about-left2 h1{
+    font-size: 35px;
+
+}
+.about-left2{
+    background-image: url('./fon.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 30%;  
+}
+.about-left2 h1{
+    font-size: 35px;
+
+}
+.about-left2 p{
+    font-size: 13px;
+    padding-top: 20px;
+    color: darkgray;
+}

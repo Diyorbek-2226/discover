@@ -1,0 +1,50 @@
+.component_right{
+    border: solid red;
+    border: none;
+    width: 30%;
+    height: 80vh;
+    flex-direction: column;
+    display: flex;
+    padding: 10px 20px;
+    gap: 10%;
+    color: darkgray;
+}
+.component_right label{
+    display: block;
+   
+}
+.component_right input{
+    display: block;
+    height: 40px;
+    
+background-color: rgb(216, 216, 216);
+padding-left: 40px;
+color: black; 
+padding: 10px 10px; 
+margin: 3px 0px;
+}
+.component_right select{
+    display: block;
+    height: 40px;
+    
+    background-color: rgb(216, 216, 216);
+    padding-left: 40px; 
+    color: black;
+    padding: 10px 0px;
+}
+.component_right button{
+    height: 40px;
+
+}
+.component_right span{
+display: flex;
+flex-direction: column;
+justify-content: center;
+   
+}
+.component_left_text h1{
+    font-style: italic;
+    font-weight: bold;
+    
+}
+

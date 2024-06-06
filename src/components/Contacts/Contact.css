@@ -1,0 +1,22 @@
+.CONTACT_XARITA{
+    width:100%;
+    height: 400px;
+    
+}
+.contact_sms{
+    border: solid red ;
+    padding: 60px 30px;
+    margin: 50px 0px;
+    background-color: #FFFFFF;
+    border: none;
+}
+.contacts{
+    background-image: url(./bg-footer.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_sms button{
+   width: 200px;
+   
+}

@@ -51,6 +51,12 @@
   .project_img6 {
     background-image: url('./image/presidentscool.webp');
   }
+  .text-PROJECTS{
+    border: solid red;
+    padding: 50px 10px;
+    border: none;
+    background-color: rgb(245, 244, 244);
+  }
   
   .z-10 {
     position: relative;

@@ -1,0 +1,14 @@
+.tex-picturs{
+    color :white;
+}
+.tex-picturs:hover{
+padding-bottom: 170px;
+transform: padding 1s;
+}
+.camdy{
+    background-image: url(./images/bg-news.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

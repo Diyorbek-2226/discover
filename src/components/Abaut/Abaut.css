@@ -11,7 +11,8 @@ section{
     
 }
 .about-left{
-    
+    background-image: url(./imgs.svg);
+    background-repeat: no-repeat;
         width: 100%;
 }
 .about-left h1{
@@ -27,7 +28,7 @@ section{
     margin-top: 100px;
 }
 .about-right .box{
-    width: 220px;
+    width: 24%;
     display: block;
     height: 150px;
     border:0.5px solid black;
@@ -39,10 +40,11 @@ section{
 }
 .wrap_box1{
     display: flex;
-    padding-left: 220px;
+    /* padding-left: 220px; */
 }
 .wrap_box2{
     display: flex;
+    width: 100%;
 }
 .wrap_box3{
     display: flex;
@@ -57,10 +59,11 @@ section{
 }
 .box:hover{
     background-image: url(../img/abaut.jpg);
+    background-position: center;
     border: none;
 }
 .box:hover h1{
-    color: chartreuse;
+    color: rgb(224, 175, 51);
 }
 .box:hover p{
     color: darkgray;
@@ -71,5 +74,5 @@ section{
    align-items: center;
 }
 .box1{
-    background-color: chartreuse;
+    background-color: rgb(224, 175, 51);
 }

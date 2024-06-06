@@ -15,24 +15,15 @@ export const Abaut = () => {
               to the construction and operation of buildings and infrastructure.
 </p>
             </div>
-            <div data-aos="zoom-in-left"  className="about-right">
-               <div className="wrap_box1">
-               <span className="box">
-                    <h1>4000+</h1>
-                    <p>The number of employees</p>
-                    </span>
-                    <span className="box">
-                    <h1>150+</h1>
-                    <p>projects</p>
-                    </span>
-               </div>
+            {/* <div data-aos="zoom-in-left"  className="about-right container mx-auto" >
+             
                <div className="wrap_box2">
                <span className="box">
                <h1>16</h1>
                     <p>Residential complexes</p>
                     </span>
                     <span className="box"> 
-                    <h1>14</h1>
+                    <h1>14hbj</h1>
                     <p>14 years on marketplace</p>
                     </span>
                     <span className="box"> 
@@ -49,7 +40,7 @@ export const Abaut = () => {
                     <p>Hospitals</p>
                     </span>
                </div>
-            </div>
+            </div> */}
         </div>
     </div>
    </section>
